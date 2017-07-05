@@ -1,0 +1,28 @@
+{
+  "name": "steam-web-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/pm2 start ecosystem.config.js",
+    "stop": "./node_modules/.bin/pm2 delete ecosystem.config.js",
+    "log": "./node_modules/.bin/pm2 logs 'steam-web-api'"
+  },
+  "author": "AJ Hsu",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "file-stream-rotator": "^0.0.7",
+    "fluent-ffmpeg": "^2.1.0",
+    "jsdom": "^9.12.0",
+    "morgan": "^1.7.0",
+    "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.34",
+    "escape-goat": "^1.1.0",
+    "pm2": "^2.2.3",
+    "prettier": "^1.4.4"
+  }
+}
