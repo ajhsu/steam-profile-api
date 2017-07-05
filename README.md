@@ -8,8 +8,12 @@ then you'll get:
 
 ```
 {
-  "status":"Currently Online",
-  "recentPlayTime":"61.5 hours past 2 weeks",
+  "privacy":"",
+  "currentStatus":"Currently Offline",
+  "lastStatus":"Last Online 6 hrs, 21 mins ago",
+  "realName":"AJ Hsu",
+  "country":"Taiwan",
+  "recentPlayTime":"55.8 hours past 2 weeks",
   "recentGames":[
     {
       "name":"Don't Starve Together",
