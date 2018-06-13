@@ -2,12 +2,12 @@
   "name": "steam-web-api",
   "version": "1.0.0",
   "description": "",
+  "license": "MIT",
+  "author": "AJ Hsu <im.ajhsu@gmail.com>",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "AJ Hsu",
-  "license": "MIT",
   "dependencies": {
     "cors": "^2.7.1",
     "express": "^4.13.3",
