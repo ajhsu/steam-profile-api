@@ -1,11 +1,19 @@
-## Usage
+# Steam Profile API
+Fetch user profiles directly from steamcommunity.com
 
-by accessing
+## Install and Run
 
-http://localhost:8090/user/ajhsu
+Install
+```bash
+$ npm install
+```
 
-then you'll get:
+And start
+```bash
+$ npm start
+```
 
+After bootstraped, you'll get the following JSON response by accessing `http://localhost:8090/user/ajhsu`,
 ```
 {
   "privacy":"",
